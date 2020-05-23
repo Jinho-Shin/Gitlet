@@ -1,0 +1,28 @@
+> init
+<<<
++ test1 test1
+> add test1
+<<<
+> commit "testing test1"
+<<<
+> log commits
+Incorrect operands.
+<<<
+D HEADER "commit [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
+> log
+===
+${HEADER}
+${DATE}
+testing test1
+
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*
+
+
+
+

@@ -1,0 +1,21 @@
+> init
+<<<
+> branch b1
+<<<
++ test1 test1
+> add test1
+<<<
+> rm test1
+<<<
+> rm test1
+No reason to remove the file.
+<<<
+> commit "test1"
+No changes added to the commit.
+<<<
+> add test1
+<<<
+> commit "test1"
+<<<
+> checkout b1
+<<<
